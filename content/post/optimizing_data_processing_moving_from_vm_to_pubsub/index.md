@@ -15,7 +15,7 @@ I encountered an issue where a VM was experiencing high CPU usage. This problem 
 
 We observed anomalies in sales and campaign data. For example, a download that should have retrieved 330 sales only returned 4. Upon investigation, it became clear that data from Datastore was not being written to BigQuery fast enough.
 
-The issue stemmed from a VM (`services-4`) responsible for handling this data transfer. The VM operates by:
+The issue stemmed from a VM `4` responsible for handling this data transfer. The VM operates by:
 
 1. 🔍 Fetching entity IDs from Datastore.
 2. 📤 Writing them to BigQuery.
