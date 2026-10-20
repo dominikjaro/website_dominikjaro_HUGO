@@ -1,6 +1,6 @@
 ---
 title: "How I integrated Wiz Security Scanning into our Infrastructure Workflow"
-date: 2025-10-20
+date: 2026-10-20
 description: ""
 categories: ["Infrastructure as Code"]
 tags: ["Wiz","Terraform"]
