@@ -1,5 +1,6 @@
 baseurl: https://dominikjaro.pages.dev/
-languageCode: en-us
+
+Code: en-us
 theme: hugo-theme-stack
 title: DominikJaro
 copyright: Dominik Jaro
