@@ -19,3 +19,17 @@
         }
     }
 }
+
+[data-scheme="light"] .article-content {
+    .highlight {
+        border: 1px solid #d0d7de;
+        border-radius: 6px;
+        box-shadow: none;
+        overflow: hidden;
+    }
+
+    .highlight pre,
+    .highlight .chroma {
+        background-color: transparent;
+    }
+}

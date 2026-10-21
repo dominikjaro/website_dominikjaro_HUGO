@@ -11,12 +11,12 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --main-top-padding: 50px;
     }
 
-    --body-background: #ffffff;
+    --body-background: #faf7f0;
 
     --accent-color: #34495e;
     --accent-color-darker: #2c3e50;
     --accent-color-text: #fff;
-    --body-text-color: #707070;
+    --body-text-color: #2b2b2b;
 
     --tag-border-radius: 4px;
 
@@ -51,10 +51,10 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 *   Card style
 */
 :root {
-    --card-background: #f5f5f5;
-    --card-background-selected: #e0e0e0;
+    --card-background: #f2ede2;
+    --card-background-selected: #e6dfd0;
 
-    --card-text-color-main: #000;
+    --card-text-color-main: #1f1f1f;
     --card-text-color-secondary: #747474;
     --card-text-color-tertiary: #767676;
     --card-separator-color: rgba(218, 218, 218, 0.5);
@@ -108,7 +108,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 */
 :root {
     --blockquote-border-size: 4px;
-    --blockquote-background-color: rgb(248 248 248);
+    --blockquote-background-color: #f2ede2;
 
     --heading-border-size: 4px;
 
@@ -151,8 +151,8 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 }
 
 [data-scheme="light"] {
-    --pre-text-color: #272822;
-    --pre-background-color: #c7d2be;
+    --pre-text-color: #1f2328;
+    --pre-background-color: #f6f8fa;
     @import "partials/highlight/light.scss";
 }
 
