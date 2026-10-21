@@ -12,8 +12,6 @@ menu:
         params:
             icon: user
 ---
-## About Me
-
 I’m a DevOps Engineer focused on building reliable, automated cloud infrastructure that makes life easier for engineering teams. 🛠️
 
 **What I focus on day-to-day:**
@@ -25,5 +23,4 @@ I’m a DevOps Engineer focused on building reliable, automated cloud infrastruc
 
 - 📈 Cloud Reliability: Designing event-driven architectures, fine-tuning workloads, and improving observability across complex cloud environments.
 
-Currently diving deep into DevSecOps: 🛡️ I believe security should be baked into delivery from day one. I’m currently completing TechWorld with Nana’s DevSecOps Bootcamp—deepening my hands-on practice in securing CI/CD pipelines, container vulnerability scanning, secrets management, and shift-left security practices.
----
+<u>Currently diving deep into DevSecOps:</u> 🛡️ I believe security should be baked into delivery from day one. I’m currently completing TechWorld with Nana’s DevSecOps Bootcamp—deepening my hands-on practice in securing CI/CD pipelines, container vulnerability scanning, secrets management, and shift-left security practices.

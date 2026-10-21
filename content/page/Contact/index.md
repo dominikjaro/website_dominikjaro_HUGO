@@ -1,12 +1,6 @@
 ---
 title: Contact
 layout: contact
-menu:
-    main: 
-        weight: -50
-        params:
-            icon: user
-
 comments: false
 ---
 
