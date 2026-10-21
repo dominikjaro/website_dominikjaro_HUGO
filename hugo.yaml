@@ -211,6 +211,12 @@ menu:
           params:
               icon: brand-github
 
+        - identifier: gitlab
+          name: GitLab
+          url: https://gitlab.com/dominikjaro789
+          params:
+              icon: brand-gitlab
+
         - identifier: linkedin
           name: LinkedIn
           url: https://www.linkedin.com/in/dominik-jaro/
