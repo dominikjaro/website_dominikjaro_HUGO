@@ -26,7 +26,7 @@ languages:
         weight: 1
         params:
             sidebar:
-                subtitle: 🚀 DevOps Engineer specialising in Terraform 🏗️ | Kubernetes ☸️ | CI/CD Automation ⚙️ & Cloud Optimisation ☁️ London, Uk
+                subtitle: DevOps Engineer specialising in Terraform  | Kubernetes | CI/CD Automation & Cloud Optimisation
                 
 services:
     # Change it to your Disqus shortname before using
