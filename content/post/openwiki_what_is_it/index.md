@@ -13,14 +13,15 @@ The traditional result? Copied-and-pasted text 📋, stale Wiki pages 🕸️, a
 
 **OpenWiki** is the missing link 🔗 that solves this by fully embracing the "Docs-as-Code" philosophy ✨. 
 
-### 🛠️ What is OpenWiki?
+## 🛠️ What is OpenWiki?
 
 At its core, OpenWiki isn't a complex standalone software platform; it is a structural pattern and a pipeline methodology 🏗️. It involves dedicating an `openwiki/` directory inside your standard application repository 📁. 
 
 Developers write standard Markdown files alongside their source code. Because the docs live in the repository:
-*   🗄️ They are version-controlled by Git.
-*   👀 They go through standard Pull Request (PR) reviews.
-*   🔀 They branch and merge exactly when the features they describe branch and merge.
+
+- 🗄️ They are version-controlled by Git.
+- 👀 They go through standard Pull Request (PR) reviews.
+- 🔀 They branch and merge exactly when the features they describe branch and merge.
 
 ### 🤖 Automating the Sync (The Pipeline Integration)
 
@@ -28,9 +29,9 @@ The magic happens 🪄 when OpenWiki is integrated into a CI/CD pipeline (like G
 
 Here is how a standard OpenWiki integration flows:
 
-1.  1️⃣ **The Trigger:** A developer merges a PR containing code updates and modifications to the `openwiki/` Markdown files.
-2.  2️⃣ **The Pre-Processor:** The pipeline spins up and runs a sanitation script 🧹 (like `prepare_openwiki.py`). This script normalizes standard Markdown, converts complex Mermaid.js diagrams 🧜‍♀️ into Atlassian-friendly macros, and ensures page titles won't conflict with existing pages.
-3.  3️⃣ **The Publisher:** A tool like `md2conf` authenticates with the Confluence API 🔑, translates the Markdown into Confluence Storage Format (CSF), and publishes the pages to a designated Space 🚀.
+1️⃣ **The Trigger:** A developer merges a PR containing code updates and modifications to the `openwiki/` Markdown files.
+2️⃣ **The Pre-Processor:** The pipeline spins up and runs a sanitation script 🧹 (like `prepare_openwiki.py`). This script normalizes standard Markdown, converts complex Mermaid.js diagrams 🧜‍♀️ into Atlassian-friendly macros, and ensures page titles won't conflict with existing pages.
+3️⃣ **The Publisher:** A tool like `md2conf` authenticates with the Confluence API 🔑, translates the Markdown into Confluence Storage Format (CSF), and publishes the pages to a designated Space 🚀.
 
 The result is a single source of truth 🎯: Developers never have to leave their terminals 👨‍💻, and the business always has perfectly formatted, up-to-date documentation in Confluence 📚.
 
