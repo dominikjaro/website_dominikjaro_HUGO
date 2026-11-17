@@ -1,4 +1,11 @@
-# 🌉 Bridging the Gap: How OpenWiki Turns Docs-as-Code into Reality 🚀
+---
+title: "# 🌉 Bridging the Gap: How OpenWiki Turns Docs-as-Code into Reality 🚀"
+date: 2026-11-17
+description: "For software engineering teams, documentation has always been a tug-of-war 🪢. Developers want to write documentation in their IDEs 💻 using Markdown, keeping it right next to the code it describes."
+categories: ["CI/CD"]
+tags: ["Automation"]
+image: "openwiki.png"
+---
 
 For software engineering teams, documentation has always been a tug-of-war 🪢. Developers want to write documentation in their IDEs 💻 using Markdown, keeping it right next to the code it describes. Product managers, stakeholders, and support teams want that same documentation in a centralized, searchable knowledge base like Confluence 📘. 
 
